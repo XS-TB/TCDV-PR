@@ -2,7 +2,7 @@
 Xavier Sancho-Tello Bayarri i Laura Gandia Barlocci
 
 ## Descripció arxius del repositori
-### source.py
+### pr1_xaviersancho_tello_lauragandia.py
 El fitxer source és l'script que conté el codi de Python amb el que s'ha generat el dataset. El codi del fitxer source realitza webscraping del lloc web https://www.wunderground.com/. 
 Concretament, genera un arxiu .csv amb una base de dades amb l'evolució dels indicadors metereològics mensuals per a la ciutat de Barcelona entre l'any 2000 i 2024.
 
