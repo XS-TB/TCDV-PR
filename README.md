@@ -1,8 +1,10 @@
 # TCDV-PR1
+## Descripció
 
 El codi del fitxer XXX realitza webscraping del lloc web https://www.wunderground.com/. 
 Concretament, genera un arxiu .csv amb una base de dades amb l'evolució dels indicadors metereològics mensuals per a la ciutat de Barcelona entre l'any 2000 i 2024.
 
+## Execució de l'script
 L'script està pensat per ser executat des de Google Colab. Per a executar l'script és necessari instal·lar les següents biblioteques:
 
 ```
