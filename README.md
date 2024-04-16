@@ -47,13 +47,15 @@ station = 'el-prat-de-llobregat'
 start_date_ex1 = datetime(year=2023, month=3, day=1)
 end_date_ex1 = datetime(year=2024, month=4, day=1)
 out_directory_ex1 = '/content/drive/MyDrive/ultim_any'
+
 scrape_station_weather(station, start_date_ex1, end_date_ex1, out_directory_ex1)
 
 #exemple1: dades entre 2009 i 2011 (al 2010 es van registrar temperatures més baixes) en una carpeta amb nom "2009_2011"
 start_date_ex2 = datetime(year=2009, month=1, day=1)
 end_date_ex2 = datetime(year=2012, month=1, day=1)
 out_directory_ex2 = '/content/drive/2009_2011'
-scrape_station_weather(station, start_date_ex1, end_date_ex1, out_directory_ex1)
+
+scrape_station_weather(station, start_date_ex2, end_date_ex2, out_directory_ex2)
 
 ```
 Per a veure quines dades estan disponibles (a nivell d'estació i periodes temporals), consultar: https://www.wunderground.com/history/monthly
