@@ -8,9 +8,11 @@ Concretament, genera un arxiu .csv amb una base de dades amb l'evolució dels in
 
 ### el-prat-de-llobregat_2000_1.csv 
 El dataset conté els valors mitjans (average) d’indicadors meteorològics mensuals a l’aeroport del Barcelona (situat al Prat de Llobregat) entre el gener del 2000 i el març del 2024. El dataset conté 291 registres (corresponents als mesos i anys) i 9 camps (corresponents als indicadors meteorològics). Els indicadors que inclou són: temperatura màxima, temperatura mitjana, temperatura mínima, punt de rosada, precipitació, produnfitat de la neu, velocitat del vent, ratxes de vent, i pressió atmosfèrica a nivell del mar.  
+L'arxiu .csv utilitza la coma ',' com a delimitador.
 
 ### requirements.txt
 Conté el nom de totes les llibreries que cal instal·lar per a executar l'script XXX.py
+
 
 ## Execució de l'script
 L'script està pensat per ser executat des de Google Colab. Per a executar l'script és necessari instal·lar les següents llibreries:
@@ -28,7 +30,7 @@ L'script està pensat per ser executat des de Google Colab. Per a executar l'scr
 
 Actualment, l'script extreu els valors mitjans (average) mensuals de: temperatura màxima, temperatura mitjana, temperatura mínima, punt de rosada, precipitació, produnfitat de la neu, velocitat del vent, ratxes de vent, i pressió atmosfèrica a nivell del mar.
 
-L'script inclou una funció (scrape_station_weather2) que té com a paràmetres d'entrada
+L'script inclou una funció (scrape_station_weather) que té com a paràmetres d'entrada
 - station
 - start date
 - end date
