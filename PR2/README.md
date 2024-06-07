@@ -30,3 +30,7 @@ L'script està pensat per ser executat des de Google Colab. Per a executar l'scr
 !pip install python-dateutil
 !apt install chromium-chromedriver
 ```
+Una vegada insalades, per a poder executar-lo es necessari tenir tant el SourcePR2.py, com el fitxer el-prat-de-llobregat_2000_1.csv a la mateixa carpeta.
+També s'haurà de declarar el Path a la linia "os.chdir('/content/drive/MyDrive/Colab_Notebooks')".
+
+Una vegada tot decalrat l'script està preparat per a executar-se.
